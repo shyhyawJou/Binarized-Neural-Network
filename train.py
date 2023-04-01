@@ -68,7 +68,6 @@ def main():
     plt.title('Loss')
     plt.legend()
     plt.xlabel('Epoch')
-    #plt.xticks(range(arg.epoch), range(1, arg.epoch+1))
     plt.savefig(f'{arg.save_dir}/loss.png')
     plt.close()
 
@@ -77,7 +76,6 @@ def main():
     plt.title('Accuracy')
     plt.legend()
     plt.xlabel('Epoch')
-    #plt.xticks(range(arg.epoch), range(1, arg.epoch+1))
     plt.savefig(f'{arg.save_dir}/acc.png')
     plt.close()
 
