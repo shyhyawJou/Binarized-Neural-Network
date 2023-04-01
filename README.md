@@ -1,6 +1,17 @@
 # Overview
 Implement the paper [Architecturing Binarized Neural Networks for Traffic Sign Recognition](https://arxiv.org/abs/2303.15005)
 
+# Requirement
+__pip install all below__  
+- tensorflow2
+- tqdm
+- pandas
+- numpy
+- scikit-learn
+- matplotlib
+- PIL
+- [larq](https://docs.larq.dev/larq/)
+
 # Dataset
 [GTSRB](https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign?datasetId=82373&language=Python)
 - __Step 1__  
